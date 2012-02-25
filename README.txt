@@ -1,0 +1,73 @@
+
+Multi-Language Comment Script for CotEditor
+===========================================
+
+a AppleScript for CotEditor.
+It comment-outs the selection with proper comment delimiters for selected colouring syntax style.
+Wenn no text selection exists then it inserts only comment delimiters before the cursor.
+I recommend you to use this with your favorite key assign :)
+
+covered languages
+-------------
+default syntax on CotEditor 1.3（Perl, Ruby, PHP etc...）
+as well Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, Go, Scheme, gnuplot, ImageJ, R and ReVIEW
+(the syntax name must be identical)
+
+
+usage
+-------------
+Put the script in *Scripts Folder* of CotEditor (~/Library/Application Support/CotEditor/ScriptMenu/)
+
+
+description
+-------------
+- The script comment-outs with line comment style 
+  by languages that have both line and block comment style
+  when the selected lines are less than 10 lines.
+  This number is customizable.
+
+- This script uncomments commented lines
+  when more than half of lines in the selection are already comment-outed at the biginning of lines.
+  This ratio is customizable.
+  This uncomment function works only by line comment.
+
+- It happens nothing by the uncoverd syntax mode.
+  You can add extra languages in the first half of the the script.
+
+
+customize
+-------------
+### key assign
+You can assign a keyboard shortcut to the CotEditor script.
+default assigned key for this script is Command + Shift + c.
+See details on CotEditor help.
+
+### customizable values in the script
+- `minBlockCommentLines`
+	minimum number of lines to use block comment on languages that have both inline and block comment style
+	default：10 lines
+	
+- `commentLinesRate`
+	proportion of comment lines for switching the uncomment function
+	default : 1/2
+
+- `spacer`
+	spaces between selection and comment delimiters
+	default : one length space
+
+
+author
+-------------
+1024jp
+website: [wolfrosch](http://wolfrosch.com/)
+twitter: @1024jp / @1024de
+
+
+licence
+-------------
+This script by 1024jp are licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
+
+
+version history
+-------------
+2012-02-25 v1.0 releaced
