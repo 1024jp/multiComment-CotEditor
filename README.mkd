@@ -4,8 +4,8 @@ Multi-Language Comment Script for CotEditor
 
 a AppleScript for CotEditor.
 
-It comment-outs the selection with proper comment delimiters for selected colouring syntax style.
-Wenn no text selection exists then it inserts only comment delimiters before the cursor.
+It comment-outs the selection with proper comment delimiters for selected coloring syntax style.
+when no text selection exists it inserts only comment delimiters before the cursor.
 
 I recommend you to use this with your favorite key assign :)
 
@@ -29,11 +29,11 @@ description
   This number is customizable.
 
 - This script uncomments commented lines
-  when more than half of lines in the selection are already comment-outed at the biginning of lines.
+  when more than half of lines in the selection are already comment-outed at the beginning of lines.
   This ratio is customizable.
   This uncomment function works only by line comment.
 
-- It happens nothing by the uncoverd syntax mode.
+- It happens nothing by the uncovered syntax mode.
   You can add extra languages in the first half of the the script.
 
 
