@@ -36,7 +36,7 @@ note: CotEditorのスクリプトメニューから「スクリプトフォル�
   対応言語を追加したい場合は、スクリプトを開いて前半のif文の辺りに見よう見まねで適当に足してください。
 
 - 拙Blogにも解説をちょっと書いています。 
-  [CotEditor 多言語コメントアウトScript](wolfrosch.com/text/2012/02/25)
+  [CotEditor 多言語コメントアウトScript](http://wolfrosch.com/text/2012/02/25)
 
 
 カスタマイズ

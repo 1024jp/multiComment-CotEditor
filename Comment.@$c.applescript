@@ -7,7 +7,7 @@ Multi-Language Comment Script for CotEditor
 add/remove comment delimiters  from selection
 
 [version] 1.0
-[releace] 2012-02-25
+[release] 2012-02-25
 [author] 1024jp (http://wolfrosch.com/)
 [licence] Creative Commons Attribution-NonCommercial 3.0 Unported License
 
