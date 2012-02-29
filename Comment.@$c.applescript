@@ -4,7 +4,7 @@ Multi-Language Comment Script for CotEditor
 
 
 [description]
-add/remove comment delimiters  from selection
+add/remove comment delimiters from selection
 
 [version] 1.0
 [release] 2012-02-25
@@ -117,7 +117,7 @@ tell application "CotEditor"
 		
 		
 		
-		if (lineComment is "") or (beginComment is not "" and selectionLines ³ minBlockCommentLines) then -- block comment
+		if (lineComment is "") or (beginComment is not "" and selectionLines is greater than minBlockCommentLines) then -- block comment
 			
 			set outStr to beginComment & spacer & contents of selection & spacer & endComment
 			
