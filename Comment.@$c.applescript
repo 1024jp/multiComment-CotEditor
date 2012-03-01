@@ -118,7 +118,7 @@ tell application "CotEditor"
 		
 		
 		
-		if (lineComment is "") or (beginComment is not "" and selectionLines is greater than minBlockCommentLines) then -- block comment
+		if (lineComment is "") or (beginComment is not "" and selectionLines is greater than or equal minBlockCommentLines) then -- block comment
 			
 			set outStr to beginComment & spacer & contents of selection & spacer & endComment
 			
