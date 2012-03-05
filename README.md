@@ -51,7 +51,7 @@ customize
 -------------
 ### key assign
 You can assign a keyboard shortcut to the CotEditor script.
-default assigned key for this script is Command + Shift + c.
+default assigned key for this script is Command + Shift + C.
 See details on CotEditor help.
 
 ### customizable values in script
@@ -99,6 +99,8 @@ version history
 	- now comment-outs/uncomments always at the line head 
 	  by languages that allow line comments only at the beginning of lines
 	  (namely by Apache and Shell Script mode)
+	- now toggles to uncomment mode even if number of the selected lines is greater than `minBlockCommentLines`
+	
 - 2012-03-01 v1.0.1 
 	- bug fix
 - 2012-02-25 v1.0 
