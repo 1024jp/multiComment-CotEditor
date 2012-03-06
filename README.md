@@ -4,32 +4,60 @@ Multi-Language Comment Script for CotEditor
 
 AppleScript for CotEditor.
 
-It comment-outs the selection with proper comment delimiters for selected coloring syntax style.
-when no text selection exists it inserts only comment delimiters before the cursor.
+It comment-outs and uncomments selected text intelligent.
 
-I recommend you to use this with your favorite key assign :)
 
-covered languages
+features
 -------------
+- inserting proper comment delimiters for selected coloring syntax style
+- multiple lines comment-out/uncomment
+- intelligent comment-out/uncomment toggle
+- switching intelligent from line comments to block comments 
+  and from comment-outing at the cursor position to at the line head
+- easy to customize
+- include also scripts without the intelligent comment-out/uncomment toggle 
+
+
+Supported Languages
+-------------
+
 default coloring syntax of CotEditor 1.3（Perl, Ruby, PHP etc...）
 as well as Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, Go, Scheme, gnuplot, ImageJ, R and ReVIEW
 (syntax name must be identical)
 
+You can also add your favorite languages.
 
-usage
+
+
+Usage
 -------------
-Put the script in CotEditor's *Scripts Folder*  (~/Library/Application Support/CotEditor/ScriptMenu/)
+Execute it from the CotEditor's script menu or using short cut keys (Command + Shift + C).
+
+### Install
+Put .scpt files into CotEditor's *Scripts Folder* (~/Library/Application Support/CotEditor/ScriptMenu/)
+
+### Uninstall
+Remove .scpt files you added from CotEditor's *Scripts Folder* 
 
 
-description
+
+Difference between Comment, Comment Out and Uncomment scripts
 -------------
-- This script comment-outs the selected area of front document.
-  when no text selection exists it inserts only comment delimiters before the cursor.
+The main script _Comment_ decides intelligent whether it comment-outs the selection or uncomments it.
+Otherwise, The _Comment Out_ and _Uncomment_ scripts do always its action. The other functions are the same as _Comment_ script.
+
+The scripts are independent of each other, so you can put only what you need into the ScriptMenu folder.
+
+
+Description
+-------------
+- This script comment-outs the selected text on CotEditor
+  when no character is selected it inserts only comment delimiters before the cursor.
 
 - This script uncomments commented lines
   when more than half of lines in the selection are already comment-outed at the beginning of lines.
   This ratio is customizable.
-  This uncomment function works only by line comment.
+  This uncomment function works only by line comments.
 
 - This script comment-outs/uncomments whole first line and last line as well
   when more than 1 line are selected.
@@ -44,17 +72,23 @@ description
   This number is customizable.
 
 - It happens nothing by the uncovered syntax mode.
-  You can add extra language definitions in the first half of the the script.
+
+### What this script CAN NOT do
+- uncommenting indented comment lines
+- uncommenting block comments
 
 
-customize
+Customize
 -------------
 ### key assign
 You can assign a keyboard shortcut to the CotEditor script.
-default assigned key for this script is Command + Shift + C.
+Default assigned key for this script is Command + Shift + C.
 See details on CotEditor help.
 
 ### customizable values in script
+Comment, Comment Out and Uncomment scripts are independent of each other. 
+Remember namely that you should modify each script files.
+
 - `minBlockCommentLines`
 	minimum number of lines to use block comment on languages that have both line and block comment style
 	
@@ -70,38 +104,30 @@ See details on CotEditor help.
 	
 	[default] one length space
 
-- `forceWholeLines`
-	commentout/uncomment also whole first line and last line when more than 1 line are selected.
-	When value is `false`, comment delimiters are inserted just front and behind of the seletion 
+- `looseSelect`
+	comment-out/uncomment also whole first line and last line when more than 1 line are selected.
+	When value is `false`, comment delimiters are inserted just front and behind of the selection 
 	and line head of first line that isn't selected is ignored by uncomment.
 	
-	[default] true
+	[default] false
+
+### adding languages
+You can add extra language definitions in the first half of the script.
 
 
-author
+Credits
 -------------
+- [repository on GitHub](https://github.com/1024jp/CommentScript-for-CotEditor)
+- [CotEditor用スクリプト -Goodies -Works //ヴォルフロッシュ](http://wolfrosch.com/works/goodies/coteditor_scripts#comment) only in Japanese
+
+### Author
 1024jp
 
 - website: [Wolfrosch](http://wolfrosch.com/)
 - twitter: @1024jp / @1024de
+- github: [1024jp](https://github.com/1024jp)
 
-
-licence
+Licence
 -------------
 This script by 1024jp is licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
 
-
-version history
--------------
-- 2012-03-xx v1.1 
-	- now comment-outs/uncomments whole first line and last line as well
-	  when more than 1 line are selected (custamizable)
-	- now comment-outs/uncomments always at the line head 
-	  by languages that allow line comments only at the beginning of lines
-	  (namely by Apache and Shell Script mode)
-	- now toggles to uncomment mode even if number of the selected lines is greater than `minBlockCommentLines`
-	
-- 2012-03-01 v1.0.1 
-	- bug fix
-- 2012-02-25 v1.0 
-	- released

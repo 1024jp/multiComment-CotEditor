@@ -1,0 +1,18 @@
+2012-03-xx v1.1 
+- [new] now comment-outs/uncomments always at the line head 
+        by languages that allow line comments only at the beginning of lines
+        (namely by Apache and Shell Script mode)
+- [new] "loose select mode"
+        comment-outs/uncomments whole first line and last line as well
+        when more than 1 line are selected
+        notice: This function is disabled by default.
+- [mod] now toggles to uncomment mode 
+        even if number of the selected lines is greater than minBlockCommentLines
+- [mod] change behavior to insert comment delimiter also to blank lines
+- [fix] now works also by R language correctly
+
+2012-03-01 v1.0.1 
+- [fix] bug fix
+
+2012-02-25 v1.0 
+- released
