@@ -112,7 +112,6 @@ Comment, Comment Out, Uncommentスクリプトは互いに独立しています�
 
 クレジット
 -------------
-- [CotEditor用スクリプト -Goodies -Works //ヴォルフロッシュ](http://wolfrosch.com/works/goodies/coteditor_scripts#comment)
 - [repository on GitHub](https://github.com/1024jp/CommentScript-for-CotEditor)
 
 ### 作者

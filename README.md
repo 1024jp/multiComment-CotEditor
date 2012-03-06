@@ -118,7 +118,6 @@ You can add extra language definitions in the first half of the script.
 Credits
 -------------
 - [repository on GitHub](https://github.com/1024jp/CommentScript-for-CotEditor)
-- [CotEditor用スクリプト -Goodies -Works //ヴォルフロッシュ](http://wolfrosch.com/works/goodies/coteditor_scripts#comment) only in Japanese
 
 ### Author
 1024jp
