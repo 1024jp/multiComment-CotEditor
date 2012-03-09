@@ -19,9 +19,7 @@ It comment-outs and uncomments selected text intelligently.
 - include also scripts without the intelligent comment-out/uncomment toggle 
 
 
-Supported Languages
--------------
-
+### Supported Languages
 built-in syntax highlighting languages on CotEditor 1.3（Perl, Ruby, PHP etc...）
 also Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, Go, Scheme, gnuplot, ImageJ, R and ReVIEW
 (syntax name must be identical)
@@ -131,14 +129,16 @@ You can add extra language definitions at `(insert additional syntax here)` poin
 
 Credits
 -------------
-- [repository on GitHub](https://github.com/1024jp/multiComment-CotEditor)
-- [CotEditor Scripts -Goodies -Works //Wolfrosch](http://wolfrosch.com/works/goodies/coteditor_comment) only in Japanese
-
 ### Author
 1024jp
 
 - website: [Wolfrosch](http://wolfrosch.com/)
 - github: [1024jp](https://github.com/1024jp)
+
+### Related Pages
+- [repository on GitHub](https://github.com/1024jp/multiComment-CotEditor)
+- [CotEditor Scripts -Goodies -Works //Wolfrosch](http://wolfrosch.com/works/goodies/coteditor_comment) only in Japanese
+
 
 License
 -------------

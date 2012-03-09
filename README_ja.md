@@ -16,8 +16,7 @@ CotEditor用のスクリプトです。
 - 状況によらず常にコメントアウト・コメント解除をおこなうスクリプトも別途付属しています
 
 
-対応している言語
--------------
+### 対応している言語
 CotEditor 1.3に同梱されているシンタックス（Perl, Ruby, PHPなど）
 さらに、Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, Go, Scheme, gnuplot, ImageJ, R および ReVIEW
 （シンタックス名が一致する必要があります）
@@ -28,9 +27,9 @@ CotEditor 1.3に同梱されているシンタックス（Perl, Ruby, PHPなど�
 使い方
 -------------
 ### インストール
-CotEditorのScriptMenuフォルダに .applescriptファイル を入れて、スクリプトメニューからお使いください。
+CotEditorのScriptMenuフォルダに任意の .applescriptファイル を入れて、スクリプトメニューからお使いください。
 
-- note1: CotEditorのスクリプトメニューから「スクリプトフォルダを開く」を選択するとFinderで該当フォルダが開きます。
+note: CotEditorのスクリプトメニューから「スクリプトフォルダを開く」を選択するとFinderで該当フォルダが開きます。
 
 ### アンインストール
 ScriptMenuフォルダ内の該当する .applescriptファイル を削除してください。
@@ -39,6 +38,7 @@ ScriptMenuフォルダ内の該当する .applescriptファイル を削除し�
 オプション・マクロ
 -------------
 Comment.applescript をもっと便利に使うためのオプション・スクリプトです。
+
 それぞれのスクリプトは独立しているので必要なもののみを ScriptMenuフォルダ に入れて使えます。
 
 ### Select Lines
@@ -49,7 +49,7 @@ Comment.applescript をもっと便利に使うためのオプション・スク
 ### Comment Out, Uncomment
 メインスクリプトである Comment は自動でコメントアウトを行うか解除をを行うかを判断しますが、
 一方 Comment Out, Uncomment スクリプトはそれぞれ、選択範囲内のコメント行の量に関わらず常にコメントアウト・コメント解除をします。
-それ以外の挙動はCommentスクリプトと同一です (単にフラグで動作を固定しているだけです)。
+それ以外の挙動はCommentスクリプトと同一です (つまり、単にフラグで動作を固定しているだけです)。
 
 
 解説
@@ -132,9 +132,6 @@ Comment, Comment Out, Uncommentスクリプトは互いに独立しています�
 
 クレジット
 -------------
-- [CotEditor用スクリプト -Goodies -Works //ヴォルフロッシュ](http://wolfrosch.com/works/goodies/coteditor_comment)
-- [repository on GitHub](https://github.com/1024jp/multiComment-CotEditor)
-
 ### 作者
 1024jp
 
@@ -142,6 +139,14 @@ Comment, Comment Out, Uncommentスクリプトは互いに独立しています�
 - twitter: [1024jp](https://twitter.com/1024jp)
 - github: [1024jp](https://github.com/1024jp)
 
+### 関連ページ
+- [CotEditor用スクリプト -Goodies -Works //ヴォルフロッシュ](http://wolfrosch.com/works/goodies/coteditor_comment)
+- [repository on GitHub](https://github.com/1024jp/multiComment-CotEditor)
+
+### フィードバック
+不具合や要望などありましたら、[メールフォーム][]やTwitterで気軽にご連絡下さい。可能な限り対応させていただきます。単純な「使ってます」という声も励みになります。
+
+[メールフォーム]: http://wolfrosch.com/about/contact
 
 ライセンス
 -------------
