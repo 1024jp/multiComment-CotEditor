@@ -1,18 +1,15 @@
 (*
 
-	Multi Comment Macro
+	Multi Comment Macro (Uncomment)
 
 
 [description]
-	add/remove comment delimiters in the selection intelligently
+	remove comment delimiters in the selection intelligently
 
 [version] 1.1
 [lastmod] 2012-03-10
 [author] 1024jp <http://wolfrosch.com/>
 [license] Creative Commons Attribution-NonCommercial 3.0 Unported License
-
-[default key assign]
-	Command + Shift + C
 	
 [supported languages] 
 	- default syntax styles on CotEdito 1.3.1
@@ -32,17 +29,14 @@ property minBlockCommentLines : 10
 -- number of lines to enable loose select mode (disable -> 0)
 property looseSelect : 0
 
--- proportion of commented lines for switching to the uncomment function
-property commentLinesRate : 2/ 3
-
 
 -- __mode_settings_______________________________________________________________
 
 -- toggle mode intelligently
-property toggleMode : true
+property toggleMode : false
 
 -- set mode to uncomment
-property uncomment : false
+property uncomment : true
 
 
 -- __main_______________________________________________________________________
