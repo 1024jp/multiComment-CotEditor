@@ -139,7 +139,7 @@ Comment, Comment Out, Uncommentスクリプトは互いに独立しています�
 - twitter: [1024jp](https://twitter.com/1024jp)
 - github: [1024jp](https://github.com/1024jp)
 
-### 関連ページ
+### 配布ページ
 - [CotEditor用スクリプト -Goodies -Works //ヴォルフロッシュ](http://wolfrosch.com/works/goodies/coteditor_comment)
 - [repository on GitHub](https://github.com/1024jp/multiComment-CotEditor)
 

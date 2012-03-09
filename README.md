@@ -7,7 +7,7 @@ AppleScripts for CotEditor.
 It comment-outs and uncomments selected text intelligently.
 
 
-### features
+### Features
 
 - inserting proper comment delimiters for selected syntax coloring mode
 - comment-outing/uncommenting multiple lines
@@ -85,12 +85,12 @@ Description
 
 Customize
 -------------
-### key assign
+### Key Assign
 You can assign a keyboard shortcut to the CotEditor script.
 Default assigned key for this script is Command + Shift + C.
 See details on CotEditor help.
 
-### customizable values in script
+### Customizable Values in Script
 Comment, Comment Out and Uncomment scripts are independent of each other. 
 Remember namely that you should modify each script files.
 
@@ -114,7 +114,7 @@ Remember namely that you should modify each script files.
 	
 	[default] 2/3
 
-### adding languages
+### Adding Languages
 You can add extra language definitions at `(insert additional syntax here)` point in the script with the following format.
 
 ```AppleScript
@@ -142,5 +142,5 @@ Credits
 
 License
 -------------
-This script by 1024jp is licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
+The Multi Comment Macro for CotEditor by 1024jp is licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
 
