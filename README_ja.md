@@ -89,7 +89,8 @@ Comment.applescript をもっと便利に使うためのオプション・スク
 -------------
 ### ショートカットキー
 CotEditorスクリプトのショートカットキーはファイル名を変更することで設定可能です。
-デフォルトでは Comment にのみ Command + Shift + C がショートカットキーとして割り振られています。
+デフォルトでは Comment に Command + Shift + C が、
+Select Lines に Command + Shift + A ショートカットキーとして割り振られています。
 詳しくはCotEditorのヘルプを参照してください。
 
 ### スクリプト内で設定できる値
