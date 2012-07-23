@@ -69,7 +69,7 @@ tell application "CotEditor"
 				set beginDelimiter to "/*"
 				set endDelimiter to "*/"
 				
-			else if coloring style is in {"Perl", "Python", "gnuplot", "R"} then
+			else if coloring style is in {"Perl", "Python", "YAML", "gnuplot", "R"} then
 				set lineDelimiter to "#"
 				
 			else if coloring style is in {"Shell Script", "Apache"} then
