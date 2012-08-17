@@ -6,8 +6,8 @@
 [description]
 	add/remove comment delimiters in the selection intelligently
 
-[version] 1.1
-[lastmod] 2012-03-10
+[version] 1.1.2
+[lastmod] 2012-08-17
 [author] 1024jp <http://wolfrosch.com/>
 [license] Creative Commons Attribution-NonCommercial 3.0 Unported License
 
@@ -33,7 +33,7 @@ property minBlockCommentLines : 10
 property looseSelect : 0
 
 -- proportion of commented lines for switching to the uncomment function
-property commentLinesRate : 2/ 3
+property commentLinesRate : 2 / 3
 
 
 -- __mode_settings_______________________________________________________________
@@ -147,8 +147,7 @@ tell application "CotEditor"
 			
 			-- comment-out/uncomment toggle
 			set blockUncomment to false
-			if (toggleMode or uncomment) and Â
-				(theSelection starts with beginDelimiter and theSelection ends with endDelimiter) then
+			if (toggleMode or uncomment) and (theSelection starts with beginDelimiter and theSelection ends with endDelimiter) then
 				set blockUncomment to true -- simple block uncomment
 				
 				

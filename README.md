@@ -1,5 +1,5 @@
  
-Multi Comment Macro v1.1 for CotEditor
+Multi Comment Macro v1.1.2 for CotEditor
 =======================================
 
 AppleScripts for CotEditor.
