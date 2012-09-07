@@ -6,14 +6,14 @@
 [description]
 	remove comment delimiters in the selection intelligently
 
-[version] 1.1.2
-[lastmod] 2012-08-17
+[version] 1.1.3
+[lastmod] 2012-09-09
 [author] 1024jp <http://wolfrosch.com/>
 [license] Creative Commons Attribution-NonCommercial 3.0 Unported License
 	
 [supported languages] 
 	- default syntax styles on CotEdito 1.3.1
-	- Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, Go, Scheme, gnuplot, ImageJ, R and ReVIEW
+	- Apache, XML, HTML5, SVG, SQL, Markdown, AppleScript, CoffeeScript, Go, Scheme, gnuplot, ImageJ, R and ReVIEW
 *)
 
 
@@ -95,6 +95,11 @@ tell application "CotEditor"
 				set lineDelimiter to "--"
 				set beginDelimiter to "(*"
 				set endDelimiter to "*)"
+				
+			else if coloring style is "CoffeeScript" then
+				set lineDelimiter to "#"
+				set beginDelimiter to "###"
+				set endDelimiter to "###"
 				
 			else if coloring style is "Scheme" then
 				set lineDelimiter to ";"
