@@ -6,8 +6,8 @@
 [description]
 	add comment delimiters in the selection intelligently
 
-[version] 1.1.3
-[lastmod] 2012-09-09
+[version] 1.1.4
+[lastmod] 2012-12-06
 [author] 1024jp <http://wolfrosch.com/>
 [license] Creative Commons Attribution-NonCommercial 3.0 Unported License
 	
@@ -90,6 +90,10 @@ tell application "CotEditor"
 				set lineDelimiter to "--"
 				set beginDelimiter to "{-"
 				set endDelimiter to "-}"
+				
+			else if coloring style is "INI" then
+				set lineDelimiter to ";"
+				set allowMiddleOfLine to false
 				
 			else if coloring style is "AppleScript" then
 				set lineDelimiter to "--"

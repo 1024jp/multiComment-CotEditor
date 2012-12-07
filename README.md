@@ -1,5 +1,5 @@
  
-Multi Comment Macro v1.1.3 for CotEditor
+Multi Comment Macro v1.1.4 for CotEditor
 =======================================
 
 AppleScripts for CotEditor.
@@ -21,7 +21,7 @@ It comment-outs and uncomments selected text intelligently.
 
 ### Supported Languages
 built-in syntax highlighting languages on CotEditor 1.3（Perl, Ruby, PHP etc...）
-also Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, CoffeeScript, YAML, Go, Scheme, gnuplot, ImageJ, R and ReVIEW
+also Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, CoffeeScript, YAML, INI, Go, Scheme, gnuplot, ImageJ, R and ReVIEW
 (syntax name must be identical)
 
 You can also add your favorite languages.

@@ -1,5 +1,5 @@
  
-Multi Comment Macro v1.1.3 for CotEditor
+Multi Comment Macro v1.1.4 for CotEditor
 =======================================
 
 CotEditor用のスクリプトです。
@@ -18,7 +18,7 @@ CotEditor用のスクリプトです。
 
 ### 対応している言語
 CotEditor 1.3に同梱されているシンタックス（Perl, Ruby, PHPなど）
-さらに、Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, CoffeeScript, YAML, Go, Scheme, gnuplot, ImageJ, R および ReVIEW
+さらに、Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, CoffeeScript, YAML, INI, Go, Scheme, gnuplot, ImageJ, R および ReVIEW
 （シンタックス名が一致する必要があります）
 
 他、プリセットされていない言語も簡単に追加できます。
