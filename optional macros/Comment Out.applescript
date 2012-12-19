@@ -7,13 +7,13 @@
 	add comment delimiters in the selection intelligently
 
 [version] 1.1.4
-[lastmod] 2012-12-06
+[lastmod] 2012-12-19
 [author] 1024jp <http://wolfrosch.com/>
 [license] Creative Commons Attribution-NonCommercial 3.0 Unported License
 	
 [supported languages] 
 	- default syntax styles on CotEdito 1.3.1
-	- Apache, XML, HTML5, SVG, SQL, Markdown, AppleScript, CoffeeScript, Go, Scheme, gnuplot, ImageJ, R and ReVIEW
+	- Apache, XML, HTML5, SVG, SQL, Markdown, INI, AppleScript, CoffeeScript, Go, Scheme, gnuplot, ImageJ, R and ReVIEW
 *)
 
 
@@ -111,7 +111,7 @@ tell application "CotEditor"
 			else if coloring style is "SQL" then
 				set lineDelimiter to "--"
 				
-			else if coloring style is "ImageJ" then
+			else if coloring style is "ImageJ Macro" then
 				set lineDelimiter to "//"
 				
 			else if coloring style is "ReVIEW" then
