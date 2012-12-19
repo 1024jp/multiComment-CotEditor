@@ -1,4 +1,4 @@
-2012-12-xx v1.1.4
+2012-12-19 v1.1.4
 - [new] added "Haskel" coloring syntax
 - [mod] changed syntax name "ImageJ" to "ImageJ Macro"
 
