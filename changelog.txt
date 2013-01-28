@@ -1,5 +1,8 @@
+2013-01-28 v1.1.5
+- [new] added "Scala" coloring syntax
+
 2012-12-19 v1.1.4
-- [new] added "Haskel" coloring syntax
+- [new] added "INI" coloring syntax
 - [mod] changed syntax name "ImageJ" to "ImageJ Macro"
 
 2012-09-09 v1.1.3
