@@ -141,7 +141,7 @@ Comment, Comment Out, Uncommentスクリプトは互いに独立しています�
 - github: [1024jp](https://github.com/1024jp)
 
 ### 配布ページ
-- [CotEditor用スクリプト -Goodies -Works //ヴォルフロッシュ](http://wolfrosch.com/works/goodies/coteditor_comment)
+- [CotEditor用コメントマクロ -Goodies -Works //ヴォルフロッシュ](http://wolfrosch.com/works/goodies/coteditor_comment)
 - [repository on GitHub](https://github.com/1024jp/multiComment-CotEditor)
 
 ### フィードバック
@@ -152,4 +152,5 @@ Comment, Comment Out, Uncommentスクリプトは互いに独立しています�
 ライセンス
 -------------
 本スクリプトは [クリエイティブ・コモンズ 表示 - 非営利 3.0 非移植 ライセンス](cc) の下に提供されています。
+
 [cc]: http://creativecommons.org/licenses/by-nc/3.0/deed.ja

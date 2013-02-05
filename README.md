@@ -138,7 +138,7 @@ Credits
 
 ### Related Pages
 - [repository on GitHub](https://github.com/1024jp/multiComment-CotEditor)
-- [CotEditor Scripts -Goodies -Works //Wolfrosch](http://wolfrosch.com/works/goodies/coteditor_comment) only in Japanese
+- [Multi Comment Macro for CotEditor -Goodies -Works //Wolfrosch](http://wolfrosch.com/works/goodies/coteditor_comment) only in Japanese
 
 
 License
