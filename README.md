@@ -20,8 +20,8 @@ It comment-outs and uncomments selected text intelligently.
 
 
 ### Supported Languages
-built-in syntax highlighting languages on CotEditor 1.3（Perl, Ruby, PHP etc...）
-also Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, CoffeeScript, YAML, INI, Go, Scala, Scheme, gnuplot, ImageJ Macro, R and ReVIEW
+built-in syntax highlighting languages on CotEditor 1.5（Perl, Ruby, PHP etc...）
+also HTML5, SVG, SQL, AppleScript, Go, Scheme, gnuplot, ImageJ Macro, R and ReVIEW
 (syntax name must be identical)
 
 You can also add your favorite languages.

@@ -1,10 +1,11 @@
- 
+
 Multi Comment Macro v1.1.5 for CotEditor
 =======================================
 
 CotEditor用のスクリプトです。
 
 状況に合わせて振る舞いを判断し、選択範囲の コメントアウト(コメント化する) と コメント解除(コメント記号を取り除く) を行います。コーディング言語に依らない、共通したショートカットキーでのコメントアウト/解除が実現します。
+
 
 ### 特長
 - そのときのシンタックス・カラーリング・モードによって自動的に挿入するコメント記号を判断します
@@ -17,8 +18,8 @@ CotEditor用のスクリプトです。
 
 
 ### 対応している言語
-CotEditor 1.3に同梱されているシンタックス（Perl, Ruby, PHPなど）
-さらに、Apache, XML, HTML5, SVG, SQL,  Markdown, AppleScript, CoffeeScript, YAML, INI, Go, Scala, Scheme, gnuplot, ImageJ Macro, R および ReVIEW
+CotEditor 1.5に同梱されているシンタックス（Perl, Ruby, PHPなど）
+さらに、HTML5, SVG, SQL, AppleScript, Go, Scheme, gnuplot, ImageJ Macro, R および ReVIEW
 （シンタックス名が一致する必要があります）
 
 他、プリセットされていない言語も簡単に追加できます。
