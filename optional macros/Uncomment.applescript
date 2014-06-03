@@ -6,14 +6,14 @@
 [description]
 	remove comment delimiters in the selection intelligently
 
-[version] 1.1.5
-[lastmod] 2013-01-28
+[version] 1.1.6
+[lastmod] 2013-06-03
 [author] 1024jp <http://wolfrosch.com/>
 [license] Creative Commons Attribution-NonCommercial 3.0 Unported License
 	
 [supported languages] 
-	- default syntax styles on CotEdito 1.3.1
-	- Apache, XML, HTML5, SVG, SQL, Markdown, INI, AppleScript, CoffeeScript, Go, Scala, Scheme, gnuplot, ImageJ, R and ReVIEW
+	- default syntax styles on CotEdito 1.5.3
+	- Swift, HTML5, SVG, SQL, AppleScript, Go, Scheme, gnuplot, ImageJ, R and ReVIEW
 *)
 
 
@@ -54,7 +54,7 @@ tell application "CotEditor"
 			set lineDelimiter to "" -- begin delimiter of line comment
 			set allowMiddleOfLine to true -- whether line comments are allowed at the middle of a line
 			
-			if coloring style is in {"C, C++, Objective-C", "Java", "JavaScript", "PHP", "Scala", "Go"} then
+			if coloring style is in {"C, C++, Objective-C", "Java", "JavaScript", "PHP", "Scala", "Go", "Swift"} then
 				set lineDelimiter to "//"
 				set beginDelimiter to "/*"
 				set endDelimiter to "*/"

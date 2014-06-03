@@ -1,3 +1,6 @@
+2014-06-03 v1.1.6
+- [new] added "Swift" coloring syntax
+
 2013-01-28 v1.1.5
 - [new] added "Scala" coloring syntax
 
