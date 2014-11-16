@@ -2,6 +2,9 @@
 Multi Comment Macro v1.1.6 for CotEditor
 =======================================
 
+__Since CotEditor itself introduced a comment toggle feature (by me) on ver. 2.0, This repo is no more maintained.__
+
+
 AppleScripts for CotEditor.
 
 It comment-outs and uncomments selected text intelligently.
